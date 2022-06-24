@@ -6,6 +6,9 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+import { FaFacebookF,FaTwitter,FaLinkedinIn } from "react-icons/fa";
+
 
 const Home = () => {
     const [age, setAge] = React.useState('');
@@ -72,18 +75,329 @@ const Home = () => {
                 <div className='belowHeaderContentBox'>
                     <h2 className='headerHeading'>Establish Competitive Advantages to Win More Business</h2>
                     <p className='headerContent'>Collect and interpret competitive intelligence for accurate market analysis, nimble response times, and analytical foresight. This process will ensure you are positioned to do more than merely better understand your competitors. In fact it will allow you to counter their tactics, offset their strategy and overcome their market position – with sentience and savvy.</p>
-                    <Button style={{margin:'30px 0',height:'50px',fontSize:'18px',textTransform:'capitalize',backgroundColor:'#ff833b',}} variant="contained">Schedule a Demo</Button>
+                    <Button style={{margin:'30px 0',height:'50px',padding:'25px 40px',fontSize:'15px',textTransform:'capitalize',backgroundColor:'#ff833b',}} variant="contained">Schedule a Demo</Button>
                     <div className='headerBelowImg'>
                         <img src="https://imgur.com/AtlKiit.png" className="download_img"/>
                         <img src="https://imgur.com/thK22dd.png" className="download_img"/>    
                     </div>
                 </div>
                 <div className='belowHeaderImgBox'>
-
+                  <img className='belowHeaderImg' src='https://adaptintel.com/assets/images/mainHead.svg' />
                 </div>
             </div>
         </section>
         {/* below Header end */}
+
+        {/* Achieve with Adapt start */}
+        <section>
+          <div className='achieveContainer'>
+            <div className='achieveMore'>
+              <span></span>
+              <h3>Achieve more with Adapt</h3>
+            </div>
+            <div className='achieveBoxes'>
+              <div className='achieveBox'>
+                <img className='achieveImg' src='	https://adaptintel.com/assets/images/aicon1.svg' />
+                <p className='achieveHeading'>Marketing</p>
+                <p className='achieveText'>Pinpoint unique value propositions that help you dominate your market. After all, you know your customers’ problems better than anyone, and with the right data and discernment you can generate differentiated solutions to solve those challenges efficiently.</p>
+              </div>
+              <div className='achieveBox'>
+                <img className='achieveImg' src='	https://adaptintel.com/assets/images/aicon2.png' />
+                <p className='achieveHeading'>Sales Teams</p>
+                <p className='achieveText'>Arm your sales team with sophisticated insights to overcome objections and highlight unique offerings. Provide them with the resources to ensure benefits are immediately understood and stand above other industry options.</p>
+              </div>
+              <div className='achieveBox'>
+                <img className='achieveImg' src='	https://adaptintel.com/assets/images/aicon3.png' />
+                <p className='achieveHeading'>Decision Making Support</p>
+                <p className='achieveText'>C-suite leaders make vital business decisions on a daily basis. The success of their companies depend not only on making the best possible choices, but also using the best information. Enter Adapt. Accurate, relevant, and timely intelligence enable strategic wins when it matters most.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Achieve with Adapt end  */}
+
+        {/* How it works start */}
+        <section>
+          <div className='howContainer'>
+            <div className='achieveMore'>
+              <span></span>
+              <h3>How it Works</h3>
+            </div>
+            <div className='howContentBox'>
+              <div className='howBox'>
+                <div className='circleText'>
+                  <svg xmlns="http://www.w3.org/2000/svg" style={{zIndex:'2'}} width="32" height="32" viewBox="0 0 54 54" className="dots-palce">
+                            <g id="Group_5262" data-name="Group 5262" transform="translate(4069.676 2503)">
+                              <circle id="Ellipse_794" data-name="Ellipse 794" cx="27" cy="27" r="27" transform="translate(-4069.676 -2503)" fill="red" className="dots"></circle>
+                              <circle id="Ellipse_795" data-name="Ellipse 795" cx="19" cy="19" r="19" transform="translate(-4061.676 -2495)" fill="#fff"></circle>
+                            </g>
+                  </svg>
+                  <h3>Discovery</h3>
+                  <span className='howLine'></span>
+                </div>
+                <p className='how_text'>Define your most pressing business goals and challenges. This starts by asking a series of simple yet surgical questions about your company. What makes your product or service distinct? What qualities are differentiated and how are you underscoring this to your customers? What is the root cause of problems you face in business or operational environments? Which business challenges keep you up at night? This discovery process sets the stage for collecting relevant and actionable competitive intelligence to help achieve your corporate goals.</p>
+              </div>
+              <div className='howBox howBox2'>
+                <div className='circleText'>
+                  <svg xmlns="http://www.w3.org/2000/svg" style={{zIndex:'2'}} width="32" height="32" viewBox="0 0 54 54" className="dots-palce">
+                            <g id="Group_5262" data-name="Group 5262" transform="translate(4069.676 2503)">
+                              <circle id="Ellipse_794" data-name="Ellipse 794" cx="27" cy="27" r="27" transform="translate(-4069.676 -2503)" fill="red" className="dots"></circle>
+                              <circle id="Ellipse_795" data-name="Ellipse 795" cx="19" cy="19" r="19" transform="translate(-4061.676 -2495)" fill="#fff"></circle>
+                            </g>
+                  </svg>
+                  <h3>Collect, Document, and Disseminate Intel</h3>
+                  <span className='howLine howLine2'></span>
+                </div>
+                <p className='how_text'>Leverage existing resources throughout your company to collect vital intelligence. After all, intelligence collection at its best is not about purchasing an expertise you don’t have, but curating and developing a skill set your staff already possesses. Additionally, eliminate disparate and incomplete information with no meaning - focus on only quality, actionable information.</p>
+              </div>
+              <div className='howBox howBox2'>
+                <div className='circleText'>
+                  <svg xmlns="http://www.w3.org/2000/svg" style={{zIndex:'2'}} width="32" height="32" viewBox="0 0 54 54" className="dots-palce">
+                            <g id="Group_5262" data-name="Group 5262" transform="translate(4069.676 2503)">
+                              <circle id="Ellipse_794" data-name="Ellipse 794" cx="27" cy="27" r="27" transform="translate(-4069.676 -2503)" fill="red" className="dots"></circle>
+                              <circle id="Ellipse_795" data-name="Ellipse 795" cx="19" cy="19" r="19" transform="translate(-4061.676 -2495)" fill="#fff"></circle>
+                            </g>
+                  </svg>
+                  <h3>Rinse and Repeat</h3>
+                </div>
+                <p className='how_text'>Competitive intelligence is the most effective when implemented as a formal, recurring process. Evaluate new priorities and perpetually monitor customer needs, market trends, and new competitors. This process is an iterative cycle that will make your company increasingly alert, progressively more effective and ultimately positioned to assume market dominance.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* How it works end */}
+
+        {/* Adapt core start */}
+        <section>
+          <div className='adaptContainer'>
+            <div className='achieveMore'>
+              <span></span>
+              <h3>Adapt Core</h3>
+            </div>
+            <div className='adaptImgBox'>
+              <div className='upperImgBox'>
+                <div className='upperLeftBox'>
+                  {/* <div> */}
+                    <img className='upLeftmainImg' src='https://adaptintel.com/assets/images/adaptCore1.png'/>
+                    <img className='growthImg' src='https://adaptintel.com/assets/images/business_growth.svg'/>
+                    <img className='pigImg' src='https://adaptintel.com/assets/images/Identify%20New%20Streams%20of.svg' />
+                  {/* </div> */}
+                </div>
+                <div className='upperRightBox'>
+                  <h3>Competitive Edge</h3>
+                  <p>Adapt's edge gives YOU the advantage. We provide clients with a proprietary intel process that saves time and money. Our method helps clients win business, stay ahead of the competition, and take command of their markets. This means MORE success, NEW opportunities to scale and GREATER capacity to reach customers.</p>
+                </div>
+              </div>
+              <div className='lowerImgBox'>
+                <div className='lowerLeftBox'>
+                  <h3>Peer to Peer CI</h3>
+                  <p>Empower employees to conquer the competition. How do you ask? Arm them with singular tools and techniques to amass sophisticated insight one conversation at a time.</p>
+                </div>
+                <div className='lowerRightBox'>
+                  <img className='lowerMainImg' src='https://adaptintel.com/assets/images/peer_to_peer_bg.png' />
+                  <img className='connectionsImg' src='https://adaptintel.com/assets/images/you%20have%20three%20new%20comments%20on%20your%20intel.svg' />
+                  <img className='alertImg' src='	https://adaptintel.com/assets/images/You%20have%20new%20intel.svg' />
+                  <img className='excellentImg' src='https://adaptintel.com/assets/images/excellentPerformance.svg' />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Adapt core end */}
+
+        {/* Single goal section start*/}
+        <section>
+          <div className='singleGoalContainer'>
+            <div className='achieveMore singleHeading'>
+              <span></span>
+              <h3>Our single goal is to enable your business’ growth objectives</h3>
+            </div>
+            <div className='mainGoalDiv'>
+              <div className='firstGoalDiv'>
+                <div className='textDiv'>
+                  <p className='redHead'>Discovery Phase</p>
+                  <h3 className='blackHead'>Adapt a Competitive Intelligence Process</h3>
+                  <p className='box_text_content'>Adapt gives you the tools to identify revenue opportunities and insights to the marketplace through human centric competitive intelligence. What does this mean? You already know your staff is your greatest resource. Adapt turns up your team’s resourcefulness by enabling them to collect information you need to answer your company’s most pressing business problems.</p>
+                  <div className='learnBox'>
+                    <p>Learn More</p>
+                    <img className='arrowImg' src='https://adaptintel.com/assets/images/learnArrow.svg' />
+                  </div>
+                </div>
+                <div className='imgDiv'>
+                  <div className='mainImageBox1'>
+                    <img className='mainImg1' src='https://adaptintel.com/assets/images/Discovery%20Phase.svg' />
+                    <img className='childImg1' src='https://adaptintel.com/assets/images/total%20revenue.svg' />
+                    <img className='childImg2' src='https://adaptintel.com/assets/images/insights.svg' />
+                  </div>
+                </div>
+              </div>
+              <div className='secondGoalDiv'>
+                <div className='imgDiv'>
+                  <div className='mainImgBox2'>
+                    <img className='mainImg2' src='https://adaptintel.com/assets/images/adaptQ_bg.png' />
+                    <img className='mobileImg1' src='https://adaptintel.com/assets/images/leaderboard.svg' />
+                    <img className='mobileImg2' src='https://adaptintel.com/assets/images/KeyIntelQuestion.svg' />
+                  </div>
+                </div>
+                <div className='textDiv secTextDiv'>
+                  <p className='redHead'>Technology</p>
+                  <h3 className='blackHead'>AdaptQ</h3>
+                  <p className='box_text_content'>Adapt's mobile application, AdaptQ, offers clients the power to record essential competitive intel data on a sleek and user-friendly interface. Moreover, AdaptQ gives users access to a central repository of competitive intel for use on-demand.</p>
+                  <div className='learnBox'>
+                    <p>Learn More</p>
+                    <img className='arrowImg' src='https://adaptintel.com/assets/images/learnArrow.svg' />
+                  </div>
+                </div>
+              </div>
+              <div className='thirdGoalDiv'>
+                <div className='textDiv'>
+                  <p className='redHead'>Technology</p>
+                  <h3 className='blackHead'>AdaptEdge</h3>
+                  <p className='box_text_content'>AdaptEdge is the web-based application and nerve center of Adapt's digital solution. All collected Peer-to-Peer intelligence filters from mobile applications into AdaptEdge for processing, analysis, and distribution.</p>
+                  <div className='learnBox'>
+                    <p>Learn More</p>
+                    <img className='arrowImg' src='https://adaptintel.com/assets/images/learnArrow.svg' />
+                  </div>
+                </div>
+                <div className='imgDiv'>
+                  <div className='thirdImgBox'> 
+                      <img className='dashImg1' src='https://adaptintel.com/assets/images/Ada.svg' />
+                      <img className='dashiChildImg1' src='https://adaptintel.com/assets/images/Income_statement.svg' /> 
+                      <img className='dashChildImg3' src='https://adaptintel.com/assets/images/primary_intel.svg' />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Single goal section end */}
+
+        {/* FAQ's section start */}
+        <section>
+          <div className='faqContainer'>
+            <div className='achieveMore faqHead'>
+              <span></span>
+              <h3 className='faqHeading'>FAQ's</h3>
+            </div>
+            <div className='queBox firstQbox'>
+              <h3 className='qText'>What is Competitive Intelligence?</h3>
+              <img className='nextImg' src='https://adaptintel.com/assets/images/arrowBack.svg' />
+            </div>
+            <hr className='qHr' />
+            <div className='queBox'>
+              <h3 className='qText'>How will Adapt improve my bottom line?</h3>
+              <img className='nextImg' src='https://adaptintel.com/assets/images/arrowBack.svg' />
+            </div>
+            <hr className='qHr' />
+            <div className='queBox'>
+              <h3 className='qText'>Who benefits from Adapt's services?</h3>
+              <img className='nextImg' src='https://adaptintel.com/assets/images/arrowBack.svg' />
+            </div>
+            <hr className='qHr' />
+            <div className='queBox'>
+              <h3 className='qText'>Will Adapt help me keep my finger on the pulse of my market space?</h3>
+              <img className='nextImg' src='https://adaptintel.com/assets/images/arrowBack.svg' />
+            </div>
+            <hr className='qHr' />
+            <div className='queBox'>
+              <h3 className='qText'>How will Adapt help me retain and create more long standing customers?</h3>
+              <img className='nextImg' src='https://adaptintel.com/assets/images/arrowBack.svg' />
+            </div>
+            <hr className='qHr' />
+          </div>
+        </section>
+        {/* FAQ's section end */}       
+
+        {/* Contact us form start */}  
+        <section>
+          <div className='contactContainer'>
+            <div className='contactBox'>
+            <div className='achieveMore contactHead'>
+              <span></span>
+              <h3 className='contactHeading'>Contact Us</h3>
+              <p>Let us answer any questions, demonstrate our products, or help you maximize your business’ potential!</p>
+            </div>
+            </div>
+            <div className='signupFormBox'>
+              <div className="input_text firstInput">
+                <input type="text" required/>
+                <label>Full Name</label>
+              </div>
+              <div className="input_text">
+                <input type="text" required/>
+                <label>Email address</label>
+              </div>
+              <div className="input_text">
+                <input type="number" required/>
+                <label>Phone number</label>
+              </div>
+              <div className="input_text">
+                <input type="text" required/>
+                <label>Company name</label>
+              </div>
+              <div className='sendDiv'>
+                <Button className='sendBtn' variant="contained">Send</Button>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Contact us form end */}  
+
+        {/* footer section start */}
+        <section>
+          <div className='footer'>
+            <div className='footerHeader'>
+              <h3 className='footerHeading'>Want to try our Adapt</h3>
+              <Button style={{margin:'30px 0',borderRadius:'7px',height:'50px',padding:'25px 40px',fontSize:'15px',textTransform:'capitalize',backgroundColor:'#ff833b',}} variant="contained">Schedule a Demo</Button>
+            </div>
+            <div className='footerEnd'>
+              <div className='footerImgDiv'>
+                <div className='adaptLogoImg'>
+                  <img className='footerImgLogo' src='https://adaptintel.com/assets/images/logo.svg' />
+                </div>
+                <p className='footerLogoText'>Our single goal is to enable your business’ growth objectives. We provide unique capabilities based on a proprietary competitive intelligence function that maximizes your existing resources to collect relevant business intelligence used to help answer your most critical business problems.</p>
+              </div>
+              <div className='solutionDiv'>
+                <h3>Solutions</h3>
+                <div className='solutions_child'>
+                  <p>Adapt a Competitive Intelligence Process</p>
+                  <p>Adapt Q</p>
+                  <p>Adapt Edge</p>
+                </div>
+              </div>
+              <div className='aboutDiv'>
+                <h3>About Us</h3>
+                <div className='solutions_child'>
+                  <p>Company</p>
+                  <p>Terms and Condition</p>
+                  <p>Privacy Policy</p>
+                </div>
+              </div>
+              <div className='subscribeDiv'>
+                <p>Subscribe to Our News & Updates</p>
+                <div className='inputSubscribeDiv'>
+                  <input type='text' placeholder='Email Address' />
+                  <button>Subscribe</button>
+                </div>
+                <div className='headerBelowImg'>
+                  <img src="https://imgur.com/AtlKiit.png" className="download_img foot_img"/>
+                  <img src="https://imgur.com/thK22dd.png" className="download_img foot_img "/>    
+                </div>
+              </div>
+            </div>
+            <hr className='qHr footerHr' />
+            <div className='last'>
+              <p>© 2021 All rights reserved.</p>
+              <div className='lastIconDiv'>
+                <FaFacebookF/>
+                <FaTwitter/>
+                <FaLinkedinIn/>  
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* footer section end */}
+
     </div>
   )
 }

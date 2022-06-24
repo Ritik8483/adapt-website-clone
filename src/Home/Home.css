@@ -54,7 +54,7 @@ body{
 .belowHeaderBox{
     display: flex;
     gap: 5px;
-    padding: 30px 0 30px 100px;
+    padding: 30px 0 0 100px;
 }
 .belowHeaderContentBox{
     height: auto;
@@ -76,15 +76,664 @@ body{
 .belowHeaderImgBox{
     height: auto;
     width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.belowHeaderImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .headerBelowImg{
     display: flex;
     gap: 20px;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 .download_img{
     height: 60px;
     width: 200px;
     object-fit: cover;
     border-radius: 10px;
+}
+.achieveContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: #f6f6f6;
+    padding:30px 100px;
+    width: 100%;
+}
+.achieveMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.achieveMore span{
+    height: 15px;
+    width: 120px;
+    background-color: #ff833b;
+    display: flex;
+}
+.achieveMore h3{
+    font-size: 35px;
+    margin-top: -10px;
+    font-family: 'Roboto Slab', serif;
+}
+.achieveBoxes{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.achieveBox{
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 15px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    border-radius: 17px;
+    color: #fff;
+}
+.achieveBox:nth-child(2){
+    height: 285px !important;
+    /* margin: 20px 0; */
+
+}
+@media(max-width:1300px){
+    /* .achieveBox{
+        height: auto !important;
+    } */
+    .achieveBox:nth-child(2){
+        height: auto !important;
+    }
+}
+.achieveImg{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.achieveHeading{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.achieveText{
+    font-size: 16px;
+    word-wrap: break-word;
+}
+.howContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding:30px 100px;
+    width: 100%;
+}
+.howContentBox{
+    margin-top: 70px;
+    height: 600px;
+    width: 750px;
+}
+.circleText{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+.howLine{
+    position: absolute;
+    height: 300px;
+    width: 5px;
+    background-color: #808080;
+    top: 5px;
+    left: 14px;
+}
+.how_text{
+    padding-left: 52px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.howBox2{
+    margin-top: 80px;
+}
+.howLine2{
+    height: 200px;
+}
+.adaptImgBox{
+    display: flex;
+    flex-direction: column;
+    height: 500px;;
+    width: 100%;
+    margin-top: 50px;
+}
+.upperImgBox{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100% ;
+}
+.lowerImgBox{
+    display: flex;
+    /* align-items: center; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100% !important;
+}
+.upperLeftBox{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.upperRightBox{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 70px;
+    background-color: #f6f6f6;
+}
+.upLeftmainImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.growthImg{
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    height: 140px;
+    width: 131px;
+    object-fit: cover;
+}
+.pigImg{
+    position: absolute;
+    top: 185px;
+    right: 50px;
+    height: 90px;
+    width: 180px;
+    object-fit: cover;
+}
+.upperRightBox p{
+    font-size: 16px;   
+}
+.upperRightBox h3{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.lowerLeftBox{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 70px;
+    box-sizing: border-box !important;
+    background-color: #f6f6f6;
+    margin: 0;
+}
+.lowerLeftBox p{
+    font-size: 16px;   
+    margin: 0;
+    padding: 0;
+}
+.lowerLeftBox h3{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+.lowerRightBox{
+    position: relative;
+    height: 100% !important;
+    width: 50% !important;
+}
+.lowerMainImg{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.connectionsImg,.alertImg,.excellentImg{
+    object-fit: cover;
+    position: absolute;
+}
+.connectionsImg{
+    top: 180px;
+    right: 85px;
+    height: 70px;
+    width: 220px;
+}
+.alertImg{
+    top: 305px;
+    left: 15px;
+    height: 70px;
+    width: 280px;
+}
+.excellentImg{
+    top: 397px;
+    right: 80px;
+    height: 70px;
+    width: 240px;
+}
+.singleGoalContainer{
+    padding: 30px 100px;
+}
+.singleHeading{
+    margin-top: 500px;
+    padding: 0 200px;
+    text-align: center;
+}
+.mainGoalDiv{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.firstGoalDiv,.secondGoalDiv,.thirdGoalDiv{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+.firstGoalDiv{
+    height: 370px;
+}
+.secondGoalDiv{
+    height: 480px;
+}
+.secTextDiv{
+    padding: 0 40px;
+}
+.thirdGoalDiv{
+    height: 500px;
+}
+.textDiv{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.redHead{
+    font-size: 18px;
+    color: #ff9050;
+}
+
+.blackHead{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.learnBox{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.learnBox p{
+    font-size: 18px;
+    color: #ff9050;
+}
+.box_text_content{
+    font-size: 16px;
+}
+.imgDiv{
+    height: 100%;
+    width: 50%;
+}
+.mainImageBox1,.mainImgBox2,.thirdImgBox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mainImg1{
+    height: 350px;
+    width: 510px;
+    object-fit: cover;
+}
+.childImg1{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    top: -80px;
+    right: -90px;
+}
+.childImg2{
+    position: absolute;
+    height: 190px;
+    width: 300px;
+    bottom: -35px;
+    left: -10px;
+}
+.mainImg2{
+    height: 470px;
+    width: 520px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.mobileImg1{
+    position: absolute;
+    height: 140px;
+    width: 250px;
+    object-fit: cover;
+    top: -50px;
+    left: -50px;
+}
+.mobileImg2{
+    position: absolute;
+    bottom: -5px;
+    right: -90px;
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+}
+.dashImg1{
+    height: 490px;
+    width: 500px;
+    object-fit: cover;
+}
+.dashiChildImg1{
+    position: absolute;
+    top: -80px;
+    object-fit: cover;
+    height: 220px;
+    width: 300px;
+    right: -100px;
+}
+.dashChildImg3{
+    position: absolute;
+    bottom: -65px;
+    object-fit: cover;
+    height: 190px;
+    width: 620px;
+    left: -120px;
+}
+.faqContainer{
+    background-color: #202020;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 100px;
+}
+.faqHead{
+    margin-top: 10px;
+}
+.faqHeading{
+    color: #fff;
+}
+.faqHead span{
+    width: 50px;
+}
+.firstQbox{
+    margin-top: 20px;
+}
+.queBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nextImg{
+    object-fit: cover;
+    height: 20px;
+    width: 20px;
+}
+.qText{
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+.qHr{
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #c9b0b0;
+}
+.contactContainer{
+    display: flex;
+    align-items: center;
+    /* background-color: #202020; */
+    margin-top: 60px;
+    height: auto;
+    width: 100%;
+    padding: 30px 130px 30px 100px;
+    gap: 20px;
+}
+.contactBox{
+    height: 100%;
+    width: 50%;
+}
+.signupFormBox{
+    height: auto;
+    width: 50%;
+    padding: 50px 20px;  
+    background-color: #202020;
+    border-radius: 13px;
+}
+.contactHead{
+    align-items: start;
+}
+.contactHead span{
+    height: 12px;
+    width: 70px;
+}
+.contactHead h3{
+    font-size: 42px;
+}
+.contactHead p{
+    font-size: 18px;
+}
+.contactHeading{
+    color: #000;
+}
+.input_text{
+    position:relative;
+    margin-top:45px;
+}
+input[type="text"]{
+    width:100%;
+    height:50px;
+    border:none;
+    border-bottom:1px solid #b8b8b8;
+    font-size:18px;
+    padding:0 15px;
+    outline:0;
+    caret-color:#a19ffc;
+    color:#ff833b;
+    background-color: #202020;
+  
+}
+input[type="number"]{
+    width:100%;
+    height:50px;
+    border:none;
+    border-bottom:1px solid #b8b8b8;
+    font-size:18px;
+    padding:0 15px;
+    outline:0;
+    caret-color:#a19ffc;
+    background-color: #202020;
+    color:#ff833b;
+}
+.input_text label{
+    pointer-events:none;
+    position:absolute;
+    left:0;
+    top:12px;
+    color: #b8b8b8;
+    font-size:18px;
+    padding:0 10px;
+    transition:all 0.3s;
+}
+input:focus{
+    border-bottom:1px solid #ff833b !important;
+}
+.input_text input:focus~label,.input_text input:valid~label{
+    top:-17px;
+    color:#ff833b;
+    left:-12px;
+    font-size: 16px;
+}
+.firstInput{
+    margin-top: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.sendDiv{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.sendBtn{
+    background-color: #ff833b !important;
+    text-transform: capitalize !important;
+    padding: 12px 60px !important;
+    font-size: 20px !important;
+}
+.footer{
+    padding: 30px 100px;
+    background-color: #202020;
+    margin-top: 30px;
+}
+.footerHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    flex-direction: column;
+}
+.footerHeading{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+.footerEnd{
+    margin-top: 90px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 30px;
+    align-items: start;
+}
+.footerImgDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.adaptLogoImg{
+    height: 50px;
+    width: 100px;
+}
+.footerImgLogo{
+    height: 30px;
+    width: 280px;
+    object-fit: cover;
+}
+.footerLogoText{
+    color: #fff;
+
+}
+.solutionDiv,.aboutDiv,.subscribeDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.solutionDiv{
+    margin-left: 20px;
+}
+
+.subscribeDiv p{
+    font-size: 19px;
+    color: #fff;
+}
+.solutionDiv h3,.aboutDiv h3{
+    color: #ff8337;
+    font-size: 19px;
+}
+.solutions_child{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.subscribeDiv{
+    margin-left: -120px;
+}
+.inputSubscribeDiv{
+    display: flex;
+    align-items: center;
+}
+.inputSubscribeDiv input[type='text']{
+    height: 50px;
+    width: 210px;
+    background-color: #4e4e4e;
+    border-bottom: 0;
+    color: #fff;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.inputSubscribeDiv input[type='text']:focus{
+    border-bottom: none !important;
+}
+.inputSubscribeDiv ::placeholder{
+    color: #586677;
+}
+.inputSubscribeDiv button{
+    height: 50px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    background-color: #ff8337;
+    color: #fff;
+    font-size: 16px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.foot_img{
+    width: 180px;
+    height: 50px;
+}
+.footerHr{
+    margin-top: 80px !important;
+}
+.last{
+    margin-bottom: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.lastIconDiv{
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    cursor: pointer;
 }
